@@ -1,0 +1,126 @@
+
+    *{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+
+    body{
+      background: #fff;
+      font-family:sans-serif;
+      margin-top: 110px;
+    }
+
+    header{
+      position: fixed;
+      left:0;
+      top:0;
+      right:0;
+      background-color: #f1f1f1 ; 
+      display:flex;
+      justify-content: space-between;
+    }
+
+  .header ul li{
+    list-style-position: calc(20);
+  }
+
+    header img{
+      width: 60%;
+      margin: 2px 0;
+    }
+
+    h1{
+      font-size: 5em;
+      margin-top: 30px;
+      font-variant: all-petite-caps;
+      width:50%;
+      font-family:serif;
+    }
+
+    header a {
+      width: 20%;
+    }
+    #nav_top ul{
+        padding: 0 1em;
+    }
+    #nav_top li{
+      line-height: 2em;
+      background-color: rgb(193, 130, 12);
+      margin-bottom: 10px;
+      padding: 3px;
+      list-style: none;
+      nav-left: auto;
+    }
+    #nav_top ul li a{
+      text-decoration: none;
+      font-size: medium;
+      colo
+    }
+    #nav_top ul li a{
+      margin-right: auto;
+    }
+    
+#nav_menu{
+display:block;
+}
+
+    #nav_menu ul{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    background-color:rgb(210, 204, 209);
+    }
+
+    #nav_menu ul li{
+      list-style: none;
+      display:inline-flex;
+      line-height: 4em;
+      text-align: center;
+      margin-top:20px;
+      font-size: x-large;
+    }
+    #nav_menu a{
+      text-decoration: none;
+
+    }
+  section{
+      background: green;
+  }
+    #nav_side ul li{
+    display: block;
+    background-color:rgb(81, 156, 81);
+    margin-bottom: 5px;
+    font-size: x-large;
+    line-height: 2em;
+    text-align: center;
+    overflow:hidden;
+    }
+
+ a,c {
+  color:white;
+ }
+
+    .container aside, .container main{
+      float:left;
+    }
+
+     .container{
+      background-color: green;
+      overflow:hidden;
+    }
+
+    aside{
+    width: 15%;
+    }
+
+    main{
+    width: 85%;
+   }
+    main section img.vision{
+    width:100%;
+   }
+ 
+
+
